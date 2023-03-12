@@ -9,7 +9,7 @@
     "prettier": "prettier --write .",
     "commit": "cz",
     "prepare": "husky install",
-    "test": "npm run lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "core-js": "^3.8.3",
