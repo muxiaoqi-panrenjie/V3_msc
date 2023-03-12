@@ -3,3 +3,18 @@ indent_style = space
 indent_size = 2
 trim_trailing_whitespace = true
 insert_final_newline = true
+# https://editorconfig.org
+
+root = true
+
+[*]
+charset = utf-8
+indent_style = space # 缩进风格(tab | space)
+indent_size = 2 # 缩进大小
+end_of_line = lf # 控制换行类型(if | cr | crlf)
+insert_final_newline = true # 去除行首的任意空白字符
+trim_trailing_whitespace = true # 始终在文件末尾插入一个新行
+
+[*.md]
+insert_final_newline = z
+trim_trailing_whitespace = false
