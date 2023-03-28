@@ -4,6 +4,4 @@
   </div>
 </template>
 
-<script lang="ts">
-const a = "22";
-</script>
+<script lang="ts"></script>

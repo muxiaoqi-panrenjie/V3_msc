@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { AxiosInstance, AxiosRequestConfig } from "axios";
+import type { AxiosInstance } from "axios";
 import type { HyrequestInterceptors, HyrequestConfig } from "./type";
 import { ElLoading } from "element-plus";
 import { LoadingInstance } from "element-plus/lib/components/loading/src/loading.js";

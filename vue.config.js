@@ -1,5 +1,4 @@
 const { defineConfig } = require("@vue/cli-service");
-const path = require("path");
 module.exports = defineConfig({
   transpileDependencies: true
   //  配置方式一
